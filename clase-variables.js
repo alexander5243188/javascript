@@ -40,6 +40,23 @@ let persona ={
 cambiarNombre(persona);
 console.log(persona);
 
+let mes = ['enero'];
+let copiaMes = mes
+mes.push('febrero');
+console.log(mes, copiaMes);
 
-    
-// Tipado dinamico
+
+let colores ={
+    salmon: '#FA8072'
+}
+
+let arcoIris = colores;
+arcoIris.salmon = '#FFA500'
+console.log(colores);
+
+let sistenaSolar = {
+    planeta:'Jupiter'
+}
+sistenaSolar.estrella ='sol'
+console.log(sistenaSolar);
+
