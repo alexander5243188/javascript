@@ -32,3 +32,8 @@ console.log(`[booleano + numero] ${booleano} + ${numero} = `, booleano +numero);
 console.log(`[booleano + cadena] ${booleano} + ${cadena} = `, booleano +cadena);
 console.log(`[booleano + booleano] ${booleano} + ${booleano}`, booleano +booleano);
 console.log('################################');
+
+const valorNumero = '596';
+const numeroConvertido = parseInt(valorNumero);
+console.log(typeof valorNumero);
+console.log(typeof numeroConvertido);
