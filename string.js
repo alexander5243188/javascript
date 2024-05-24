@@ -14,3 +14,5 @@ console.log(estiloDeVida);
 console.log(estiloDeVida.join(' '));
 console.log("Mi vida cambio gracias a ".concat(primeraParte,' ', segundaParte, ' ',terceraParte));
 
+const whatDoIdo = 'I\'m software engineer';
+console.log(whatDoIdo);
