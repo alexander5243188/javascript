@@ -16,3 +16,11 @@ console.log("Mi vida cambio gracias a ".concat(primeraParte,' ', segundaParte, '
 
 const whatDoIdo = 'I\'m software engineer';
 console.log(whatDoIdo);
+
+// Strings primitivos
+const stringPrimitivo = String("Hola, soy un string primitivo");
+console.log(typeof stringPrimitivo);
+
+// Strings objetos
+const stringObjeto = new String("Ahora yo soy un objeto");
+console.log(typeof stringObjeto);
